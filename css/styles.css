@@ -233,7 +233,7 @@ margin-bottom: 48px;
     gap: 24px;
 }
 
-.about-item {}
+.about-item {width: calc((100% - 72px) / 4);}
 
 .about-title {
     font-weight: 500;
@@ -292,7 +292,7 @@ margin-bottom: 48px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-navy-blue);
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 
 }
 
@@ -316,10 +316,12 @@ margin-bottom: 48px;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
+    margin-bottom: 8px;
 }
 
 .team-text {
     color: var(--color-slate);
+    text-align: center;
 }
 
 .team-description {
@@ -343,8 +345,7 @@ margin-bottom: 48px;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
+    display: inline-block;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-iris);
