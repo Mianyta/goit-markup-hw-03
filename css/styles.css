@@ -24,7 +24,14 @@ ul {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.list {
+    list-style: none;
+  
+}
 
+.link {
+    text-decoration: none;
+}
 img {
     display: block;
     max-width: 100%;
@@ -55,62 +62,60 @@ body {
 
 }
 
-.list {
-    list-style: none;
-    display: flex;
-}
 
-.link {
-    text-decoration: none;
-}
 
 /* HEADER */
 
 .header-container {
     display: flex;
 }
-
+.header-navigation {
+    display: flex;}
+    .header-list {display: flex;}
+    .header-address-list {
+        display: flex;
+    }
+    .header-address {
+        margin-left: auto;
+    }
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;  
 }
 
 .header-border {
     border-bottom: 1px solid #E7E9FC;
 }
-
-.header-navigation {
-    display: flex;
-    align-items: center;
-    margin-right: auto;
-}
-
-.header-logo {
-    font-family: "Raleway", sans-serif;
+.logo-main {  font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-iris);
     text-decoration: none;
     margin-right: 76px;
-
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
 }
 
-.logo-item {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--color-navy-blue);
-}
+    .logo-accent {
+        color: #2E2F42;
+    }
 
+    .nav-item {font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        display: block;
+    }
+        .nav-item:hover,
+        .nav-item:focus{
+            color: #404BBF;
+        } 
 .header-list {
 
     gap: 40px;
@@ -162,6 +167,10 @@ body {
     letter-spacing: 0.02em;
     color: var(--color-slate);
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
+
 }
 
 .header-mail:is(:hover, :focus) {
