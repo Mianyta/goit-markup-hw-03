@@ -70,7 +70,10 @@ body {
     display: flex;
 }
 .header-navigation {
-    display: flex;}
+    display: flex;
+align-items: center;
+}
+   
     .header-list {display: flex;}
     .header-address-list {
         display: flex;
@@ -108,8 +111,7 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2E2F42;
-        padding-top: 24px;
-        padding-bottom: 24px;
+       padding: 24px 0;
         display: block;
     }
         .nav-item:hover,
