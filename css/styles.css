@@ -412,6 +412,7 @@ margin-bottom: 48px;
 .buttons-item:focus {
     color: var(--color-white);
     background-color: #404bbf;
+    border: 1px solid transparent;
 }
 
 /* Project */
