@@ -327,8 +327,7 @@ margin-bottom: 48px;
 }
 
 .team-description {
-    gap: 8px;
-    display: flex;
+     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
